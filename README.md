@@ -9,6 +9,14 @@
 | **CUDA Devices (Recommended)**      | `RTX 3090`, `RTX 4090`, `A100`, `H100`                                                      |
 | **Python Version**                  | Python >= 3.10 (For Mac, you may need to upgrade) 
 
+<h2 align=center>Gensyn Testnet Node Guide Video</h2>
+
+
+<p align="center">https://github.com/user-attachments/assets/df4c57ae-7044-4691-a01c-28ac687a93ff</p>
+
+<p align="center">For Questions: https://x.com/0xemir_</p>
+
+<p align="center">Thanks : https://x.com/Zun2025 & https://x.com/Bdehrioglu</p>
 
 ## 🌐 Rent GPU
 - Visit : [Quick Pod Website](https://console.quickpod.io?affiliate=60f49a2e-463f-490d-a57a-497276b22a09)
