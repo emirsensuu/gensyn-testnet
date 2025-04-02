@@ -46,7 +46,7 @@ curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | b
 ```
 4. **Clone this repository**
 ```bash
-cd $HOME && [ -d rl-swarm ] && rm -rf rl-swarm; git clone https://github.com/zunxbt/rl-swarm.git && cd rl-swarm
+cd $HOME && [ -d rl-swarm ] && rm -rf rl-swarm; git clone https://github.com/gensyn-ai/rl-swarm.git && cd rl-swarm
 ```
 5. **Create a `screen` session**
 ```bash
