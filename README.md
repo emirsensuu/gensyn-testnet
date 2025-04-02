@@ -11,16 +11,24 @@
 
 
 ## 🌐 Rent GPU
-- Visit : [Quick Pod Website](https://console.quickpod.io?affiliate=64e0d2b2-59ee-4989-a05f-f4c3b6dbb2e4)
+- Visit : [Quick Pod Website](https://console.quickpod.io?affiliate=60f49a2e-463f-490d-a57a-497276b22a09)
 - Sign Up using email address
 - Go to your email and verify your Quick Pod account
 - Click on `Add` button in the corner to deposit fund
-- You can deposit using crypto currency (from metamask) or using Credit card
-- Now go to `template` section and then select `Ubuntu 22.04 jammy` in the below
+- You can deposit using crypto currency (from your EVM wallet) or using Credit Card
+- Now go to `template` section and then select `CUDA 12.6` in the below
+- Clone the CUDA 12.6, then edit the Docker Options as shown below.
 - Now click on `Select GPU` and search `RTX 4090` and choose it
+- Change your template via My Template Section
 - Now choose a GPU and click on `Create POD` button
 - Your GPU server will be deployed soon
 - Now click on `Connect` option and then choose `Connect to web terminal`
+
+## 🛜 Docker Options
+
+```
+-p 8888:8888 -p 3000:3000
+```
 
 ## 📥 Installation
 
@@ -57,3 +65,17 @@ python3 -m venv .venv && . .venv/bin/activate && ./run_rl_swarm.sh
 
 7. **Detach from `screen session`**
 - Use `Ctrl + A` and then press `D` to detach from this screen session.
+
+
+## 🛜 Sign-In Options
+
+1. Go ```chrome://flags/#unsafely-treat-insecure-origin-as-secure``` in your browser.
+2. Search for "Insecure origins treated as secure" section.
+3. Write here the Public IP and the exposed port 3000 of the device you rented.
+4. To apply these changes, re-start your browser.
+
+![How to check Exposed Port and Public IP](https://github.com/user-attachments/assets/18d118cc-8a61-463d-bbeb-9d8d83ed0548)
+
+![http://<PUBLIC-IP>:<PORT>](https://github.com/user-attachments/assets/f4542346-837e-4304-9c50-78f0edfacc3e)
+
+5. Then, go to your browser and search for ```<PUBLICIP>:<EXPOSEDPORT>```.
