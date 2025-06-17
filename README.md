@@ -32,6 +32,13 @@
 - Your GPU server will be deployed soon
 - Now click on `Connect` option and then choose `Connect to web terminal`
 
+## 🛜 Cloudflare
+
+```
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+sudo dpkg -i cloudflared-linux-amd64.deb
+```
+
 ## 🛜 Docker Options
 
 ```
