@@ -110,3 +110,5 @@ For questions: [@0xemir_ on X](https://x.com/0xemir_)
 ## 📺 Video Guide
 
 [Watch the full setup video here](https://github.com/user-attachments/assets/df4c57ae-7044-4691-a01c-28ac687a93ff)
+
+'''tmux rename-session -t 0 main'''
